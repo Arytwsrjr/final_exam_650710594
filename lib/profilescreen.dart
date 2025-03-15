@@ -10,7 +10,7 @@ class ProfileScfeeen extends StatelessWidget {
         title: const Text("Myprofile"),
         backgroundColor: const Color.fromARGB(255, 230, 198, 102),
       ),
-      backgroundColor: Colors.blueGrey,
+      backgroundColor: const Color.fromARGB(255, 231, 191, 139),
       body: Center(
         child: Card(
           elevation: 5,
@@ -43,6 +43,14 @@ class ProfileScfeeen extends StatelessWidget {
                     Icon(Icons.email, color: Colors.blue),
                     SizedBox(width: 5),
                     Text("Thawornsirijars_a@silpakorn.edu"),
+                  ],
+                ),
+                Row(
+                  mainAxisAlignment: MainAxisAlignment.center,
+                  children: [
+                    Icon(Icons.phone, color: Colors.blue),
+                    SizedBox(width: 5),
+                    Text("0823511983"),
                   ],
                 ),
                 
