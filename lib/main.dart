@@ -1,4 +1,7 @@
-import 'package:final_exam_650710594/profile.dart';
+//import 'package:final_exam_650710594/answer1.dart';
+import 'package:final_exam_650710594/answer2.dart';
+
+
 import 'package:flutter/material.dart';
 
 void main() {
@@ -17,7 +20,7 @@ class MyApp extends StatelessWidget {
         colorScheme: ColorScheme.fromSeed(seedColor: Colors.deepPurple),
         useMaterial3: true,
       ),
-      home: ProfileWidget(),
+      home: Answer2(),
     );
   }
 }
